@@ -3,10 +3,11 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { Comp2Component } from './comp2/comp2.component';
+import { CardComponent } from './card/card.component';
+import { CardRoxoComponent } from './card-roxo/card-roxo.component';
 
 @NgModule({
-  declarations: [AppComponent, Comp2Component],
+  declarations: [AppComponent, CardComponent, CardRoxoComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
