@@ -38,7 +38,20 @@ ng new NOME_DO_PROJETO --no-standalone
 - Configuração de Inline Template e Inline CSS
   - : ng—deep
   - : host
+- Uso do angular material
+  - Override de estilos do angular material
 - View Encapsulation
+
   - None
   - Emulated
   - ShadowDOM
+
+1. **Componentes**: São blocos de construção fundamentais do Angular, permitindo a criação de elementos HTML reutilizáveis e dinâmicos em nossa aplicação.
+2. **Property Binding**: Permite a atualização dinâmica das propriedades de elementos HTML com base em valores na classe do componente.
+3. **Event Binding**: Permite a resposta a eventos do usuário, como cliques ou teclas pressionadas, executando ações específicas definidas no componente.
+4. **Attribute Binding**: Possibilita a manipulação dinâmica dos atributos de elementos HTML, permitindo a adaptação do comportamento da interface do usuário conforme necessário.
+
+## 📅 19/05/2025
+
+5. **Style Binding**: Permite a aplicação dinâmica de estilos CSS aos elementos HTML com base em valores na classe do componente.
+6. **Class Binding**: Facilita a adição dinâmica de classes CSS aos elementos HTML, proporcionando flexibilidade na estilização da interface do usuário.
